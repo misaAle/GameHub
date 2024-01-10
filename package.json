@@ -1,0 +1,26 @@
+{
+  "name": "game_hub",
+  "version": "1.0.0",
+  "description": "Future hub for simple multiplayer games",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misaAle/GameHub.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/misaAle/GameHub/issues"
+  },
+  "homepage": "https://github.com/misaAle/GameHub#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2",
+    "socket.io": "^4.7.3",
+    "socket.io-client": "^4.7.3"
+  }
+}
